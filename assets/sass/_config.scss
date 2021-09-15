@@ -1,0 +1,15 @@
+$primary-color: #ffffff;
+$secondary-color: #c0c0c0;
+$text-color: #000000;
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: $secondary-color;
+}
+

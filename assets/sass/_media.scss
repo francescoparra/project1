@@ -1,0 +1,38 @@
+@media screen and (max-width: 880px){
+    .social{
+        display: flex;
+        flex-direction: column;
+
+        .social-btn{
+            margin: 10px;
+            width: 120px;
+            height: 40px;
+        }
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        .card{
+            margin-bottom: 20px;
+        }
+        .card-btn{
+            margin: 10px;
+            width: 120px;
+            height: 40px;
+        }
+    }
+
+    .contact-box{
+        display: grid;
+		grid-template-columns: none;
+        .left{
+            display: none;
+        }
+	}
+}
+
+@media screen and (min-width: 881px){
+    .contact-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

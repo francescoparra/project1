@@ -1,0 +1,111 @@
+@import "../config";
+
+.presentation{
+    background-color: $primary-color;
+    
+    #carousel-words{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-color;
+
+    .container{
+    display: flex;
+
+        p{
+            color: $text-color;
+            font-weight: 400;
+            font-size: 19px;
+        }
+
+        a{
+            text-decoration: none;
+            color: $text-color;
+        }
+
+        .social{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .social-btn:hover{
+            transform: scale(1.3);
+            z-index: 2;
+        }
+    }
+}
+
+.skills{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+
+
+    .progress {
+        width: 100%; 
+        height: 20px;
+        margin-bottom: 10px;
+        background-color: #ddd; 
+      }
+      
+      .skill-bar {
+        text-align: right; 
+        font-size: 14px;
+        color: white; 
+      
+      }
+      
+      .html {
+          width: 50%; 
+          background-color: #04AA6D;
+      }
+      .css {
+          width: 50%; 
+          background-color: #2196F3;
+      } 
+      .comm{
+          width: 70%;
+          background-color: #ff5c00;
+      }
+      .prod{
+          width: 80%;
+          background-color: #b80f0a;
+      }
+}
+
+
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+
+
+
+@import "../_media.scss";
+
